@@ -4,16 +4,16 @@ Remove a .bib file from a latex project. This replaces a \bibliography{reference
 Usage:
 
 To remove the .bib dependence of your main.tex file, simply use
-```python
+```bash
 python bibremove.py --file main
 ```
 The new tex file will be stored in main_out.tex
 
 You can also overwrite the original file,
-```python
+```bash
 python bibremove.py --file main --inplace
 ```
 And have it compile the final tex file to pdf,
-```python
+```bash
 python bibremove.py --file main --inplace --pdf
 ```
